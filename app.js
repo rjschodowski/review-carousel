@@ -55,7 +55,7 @@ let currentItem = 0;
 
 //Load initial item
 
-window.addEventListener('DOMContentsLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
   showPerson();
 })
 
