@@ -69,7 +69,7 @@ function showPerson() {
 }
 
 //Show next person
-nextBtn.addEventListener('click', function() {
+nextBtn.addEventListener('mouseover', function() {
   currentItem++;
   if (currentItem > reviews.length - 1) {
     currentItem = 0;
@@ -79,7 +79,7 @@ nextBtn.addEventListener('click', function() {
 
 //Show previous person
 
-prevBtn.addEventListener('click', function() {
+prevBtn.addEventListener('mouseover', function() {
   currentItem--;
   if (currentItem < 0) {
     currentItem = reviews.length - 1;
