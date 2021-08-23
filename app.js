@@ -38,7 +38,7 @@ const reviews = [
   },
 ];
 
-//Select items
+//Select items that need to change on click events
 
 const img = document.getElementById('person-img');
 const author = document.getElementById('author');
